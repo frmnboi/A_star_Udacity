@@ -58,19 +58,15 @@ int main(int argc, const char **argv)
 
     float start_x, start_y, end_x, end_y;
 
-    // std::cout<<"Starting X: "<<std::endl;
-    // std::cin>>start_x;
-    // std::cout<<"Starting Y: "<<std::endl;
-    // std::cin>>start_y;
-    // std::cout<<"Ending X: "<<std::endl;
-    // std::cin>>end_x;
-    // std::cout<<"Ending Y: "<<std::endl;
-    // std::cin>>end_y;
+    std::cout<<"Starting X: "<<std::endl;
+    std::cin>>start_x;
+    std::cout<<"Starting Y: "<<std::endl;
+    std::cin>>start_y;
+    std::cout<<"Ending X: "<<std::endl;
+    std::cin>>end_x;
+    std::cout<<"Ending Y: "<<std::endl;
+    std::cin>>end_y;
 
-    start_x=1;
-    start_y=1;
-    end_x=50;
-    end_y=50;
 
 
     // Build Model.
